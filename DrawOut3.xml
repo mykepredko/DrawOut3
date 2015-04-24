@@ -27,6 +27,25 @@
             <next>
               <block type="oled_linerect" id="52">
                 <field name="OBJECT">LINE</field>
+                <next>
+                  <block type="oled_setend" id="67" inline="true">
+                    <value name="ENDX">
+                      <block type="math_number" id="74">
+                        <field name="NUM">100</field>
+                      </block>
+                    </value>
+                    <value name="ENDY">
+                      <block type="math_number" id="75">
+                        <field name="NUM">30</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="oled_linerect" id="84">
+                        <field name="OBJECT">LINE</field>
+                      </block>
+                    </next>
+                  </block>
+                </next>
               </block>
             </next>
           </block>
