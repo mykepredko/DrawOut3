@@ -1,86 +1,91 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="9" x="100" y="66">
+  <block type="oled_cleardisplay" id="1" x="100" y="66">
     <next>
-      <block type="oled_setcursor" id="24" inline="true">
-        <value name="STARTX">
-          <block type="math_number" id="31">
-            <field name="NUM">10</field>
-          </block>
-        </value>
-        <value name="STARTY">
-          <block type="math_number" id="32">
-            <field name="NUM">10</field>
-          </block>
-        </value>
+      <block type="oled_color" id="31">
+        <field name="OBJECT">GREEN</field>
         <next>
-          <block type="oled_setend" id="41" inline="true">
-            <value name="ENDX">
-              <block type="math_number" id="42">
-                <field name="NUM">20</field>
+          <block type="oled_setcursor" id="2" inline="true">
+            <value name="STARTX">
+              <block type="math_number" id="3">
+                <field name="NUM">10</field>
               </block>
             </value>
-            <value name="ENDY">
-              <block type="math_number" id="43">
-                <field name="NUM">60</field>
+            <value name="STARTY">
+              <block type="math_number" id="4">
+                <field name="NUM">10</field>
               </block>
             </value>
             <next>
-              <block type="oled_linerect" id="52">
-                <field name="OBJECT">LINE</field>
+              <block type="oled_setend" id="5" inline="true">
+                <value name="ENDX">
+                  <block type="math_number" id="6">
+                    <field name="NUM">20</field>
+                  </block>
+                </value>
+                <value name="ENDY">
+                  <block type="math_number" id="7">
+                    <field name="NUM">60</field>
+                  </block>
+                </value>
                 <next>
-                  <block type="oled_setcursor" id="85" inline="true">
-                    <value name="STARTX">
-                      <block type="math_number" id="86">
-                        <field name="NUM">20</field>
-                      </block>
-                    </value>
-                    <value name="STARTY">
-                      <block type="math_number" id="87">
-                        <field name="NUM">60</field>
-                      </block>
-                    </value>
+                  <block type="oled_linerect" id="8">
+                    <field name="OBJECT">LINE</field>
                     <next>
-                      <block type="oled_setend" id="67" inline="true">
-                        <value name="ENDX">
-                          <block type="math_number" id="74">
-                            <field name="NUM">100</field>
+                      <block type="oled_setcursor" id="9" inline="true">
+                        <value name="STARTX">
+                          <block type="math_number" id="10">
+                            <field name="NUM">20</field>
                           </block>
                         </value>
-                        <value name="ENDY">
-                          <block type="math_number" id="75">
-                            <field name="NUM">30</field>
+                        <value name="STARTY">
+                          <block type="math_number" id="11">
+                            <field name="NUM">60</field>
                           </block>
                         </value>
                         <next>
-                          <block type="oled_linerect" id="84">
-                            <field name="OBJECT">LINE</field>
+                          <block type="oled_setend" id="12" inline="true">
+                            <value name="ENDX">
+                              <block type="math_number" id="13">
+                                <field name="NUM">100</field>
+                              </block>
+                            </value>
+                            <value name="ENDY">
+                              <block type="math_number" id="14">
+                                <field name="NUM">30</field>
+                              </block>
+                            </value>
                             <next>
-                              <block type="oled_setcursor" id="88" inline="true">
-                                <value name="STARTX">
-                                  <block type="math_number" id="89">
-                                    <field name="NUM">100</field>
-                                  </block>
-                                </value>
-                                <value name="STARTY">
-                                  <block type="math_number" id="90">
-                                    <field name="NUM">30</field>
-                                  </block>
-                                </value>
+                              <block type="oled_linerect" id="15">
+                                <field name="OBJECT">LINE</field>
                                 <next>
-                                  <block type="oled_setend" id="91" inline="true">
-                                    <value name="ENDX">
-                                      <block type="math_number" id="92">
-                                        <field name="NUM">10</field>
+                                  <block type="oled_setcursor" id="16" inline="true">
+                                    <value name="STARTX">
+                                      <block type="math_number" id="17">
+                                        <field name="NUM">100</field>
                                       </block>
                                     </value>
-                                    <value name="ENDY">
-                                      <block type="math_number" id="93">
-                                        <field name="NUM">10</field>
+                                    <value name="STARTY">
+                                      <block type="math_number" id="18">
+                                        <field name="NUM">30</field>
                                       </block>
                                     </value>
                                     <next>
-                                      <block type="oled_linerect" id="94">
-                                        <field name="OBJECT">LINE</field>
+                                      <block type="oled_setend" id="19" inline="true">
+                                        <value name="ENDX">
+                                          <block type="math_number" id="20">
+                                            <field name="NUM">10</field>
+                                          </block>
+                                        </value>
+                                        <value name="ENDY">
+                                          <block type="math_number" id="21">
+                                            <field name="NUM">10</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="oled_linerect" id="22">
+                                            <field name="OBJECT">LINE</field>
+                                          </block>
+                                        </next>
                                       </block>
                                     </next>
                                   </block>
